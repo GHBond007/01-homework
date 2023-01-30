@@ -1,55 +1,92 @@
+/*
+The asterix is a wildcard that affects every element on the page.
+This css code applies a box border to the page and 
+sets padding and margin to zero.*/
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/*
+This css code applies a white color to the background of the body section
+ of the page.*/
 body {
     background-color: #d9dcd6;
 }
 
+/*
+This css code affects elements with the header class by
+setting the padding to 20,
+also the font family 'Trebuchet MS'... is used,
+the css code sets the background-color of the header area to #2a607c
+which is also setting this sections color to white.*/
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
-
+/*
+This css code affects elements with the header class and h1 tag,
+We are setting the text in line horizontally,
+and we are setting it to a font size of 48px.*/
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
-
+/*
+This css code affects elements with the header class, h1 tag and
+seo class by the changing the color of the text to light gray.
+*/
 .header h1 .seo {
     color: #d9dcd6;
 }
-
-.header div {
+/*
+This css code affects elements with the header class and nav tag
+ by increasing the padding on top by 15px and adding 20px to the right margin. 
+ The float element moves the text to the right.
+ The font-family is set to 'Gill Sans','Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;.
+The font size for this element is 20px.
+*/
+.header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans','Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-
-.header div ul {
+/*
+This css code affects elements by having an unordered list for the nav tag headers.*/
+.header nav ul {
     list-style-type: none;
 }
-
-.header div ul li {
+/*
+This css code affects elements by lining up the nav headers horizontally in an
+unordered list with the inline-block attribute.*/
+.header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
-
+/*
+This css code affects elements by giving the anchor tag a color of white for the navigation
+line in the href and it has no text-decoration.*/
 a {
     color: #ffffff;
     text-decoration: none;
 }
-
+/*
+This css code affects elements by having a font-size of 16px for the paragraph lines in the 
+content class.*/
 p {
     font-size: 16px;
 }
-
+/*
+This css code affects elements in the hero class area by having a height of 800px and
+by having a width of 100% for the image, by having a bottom margin of 25px. The background size is cover which
+makes sure the image url(("../images/digital-marketing-meeting.jpg");)
+ covers the entire container,
+ The background position of the image is center.*/
 .hero {
     height: 800px;
     width: 100%;
@@ -58,23 +95,34 @@ p {
     background-size: cover;
     background-position: center;
 }
-
+/*
+This css code affects elements by setting the "search-engine-optimization" and 
+the "social-media-marketing" heading to
+the left side of the box and having a margin of 25px to the right.*/
 .float-left {
     float: left;
     margin-right: 25px;
 }
-
+/*
+This css code affects elements by setting the "online-reputation-management" heading to
+the right side of the box and having a margin of 25px to the left.*/
 .float-right {
     float: right;
     margin-left: 25px;
 }
-
+/*
+This css code affects elements in the content by having a width of 75% of the standard size,
+by having the nav line displayed horizontally and by having a margin on the left of 20px.*/
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
-
+/*
+This css code affects elements in the benefits class by having a margin-right of 20px,
+by having a padding of 20px, with a property of clear:both of the floating elements and to the
+ right of the main section. The width is 20% of standard and the height is 100%. The font-family
+ 'Gill Sans'... is used and the background color is #2589bd.*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -85,56 +133,40 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-
-.benefit-lead {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
+/*
+This css code affects elements by having a bottom margin of 32px and a color of white.*/
+.benefit-lead, 
+.benefit-brand, 
 .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
-.benefit-lead h3 {
+/*
+This css code affects elements by having a bottom margin of 10px and having a text-align
+of center.*/
+.benefit-lead h3,
+ .benefit-brand h3, 
+ .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img {
+/*
+This css code affects elements by having a display of block meaning vertically, by having 
+a margin of 10px auto and a max-width of 150px.*/
+.benefit-lead img,
+ .benefit-brand img,
+  .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.search-engine-optimization {
+/*
+This css code affects elements by having a bottom margin of 20px, a padding of 50px, a height
+of 300px, the font-family of 'Gill Sans'..., by having a blue background color and a color of
+white.*/
+.search-engine-optimization,
+ .online-reputation-management,
+  .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -142,59 +174,35 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.search-engine-optimization img {
+/*
+This css code affects elements by having a max height of 200px.*/
+.search-engine-optimization img,
+ .online-reputation-management img,
+  .social-media-marketing img {
     max-height: 200px;
-}
 
-.online-reputation-management img {
-    max-height: 200px;
 }
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
+/*
+This css code affects elements by having a bottom margin of 20px and a font-size of 36px.*/
+.search-engine-optimization h2,
+ .online-reputation-management h2,
+  .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
-}
 
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
 }
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
+/*
+This css code affects elements by the footer having a padding of 30px, and having a value of
+both for the clear element, a font-family of 'Trebuchet' MS..., and the text to be aligned in
+the center.*/
 .footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
-
+/*
+This css code affects elements by having a font-size of 20px for the footer h2 element.*/
 .footer h2 {
     font-size: 20px;
 }
