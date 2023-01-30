@@ -1,7 +1,7 @@
 # 01-homework Horiseon Project 
 As a developer I have made sure that all links in the application function properly.
 The application's CSS selectors and properties have been consolidated and organised
-to follow swmantic structure.
+to follow semantic structure.
 The application's CSS file has been commented on.
 
 Here is a screen shot of the application
