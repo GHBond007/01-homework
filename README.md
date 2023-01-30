@@ -1,1 +1,33 @@
-# 01-homework
+# 01-homework Horiseon Project 
+As a developer I have made sure that all links in the application function properly.
+The application's CSS selectors and properties have been consolidated and organised
+to follow swmantic structure.
+The application's CSS file has been commented on.
+
+image.png
+
+User Story
+AS A marketing agency
+I WANT a codebase that follows accessibility standards
+SO THAT our own site is optimized for search engines
+
+Acceptance Criteria
+GIVEN a webpage meets accessibility standards
+WHEN I view the source code
+THEN I find semantic HTML elements
+WHEN I view the structure of the HTML elements
+THEN I find that the elements follow a logical structure independent of styling and positioning
+WHEN I view the icon and image elements
+THEN I find accessible alt attributes
+WHEN I view the heading attributes
+THEN they fall in sequential order
+WHEN I view the title element
+THEN I find a concise, descriptive title
+
+Satisfies all of the preceding acceptance criteria plus the following code improvements:
+
+Application's links all function correctly.
+
+Application's CSS selectors and properties are consolidated and organized to follow semantic structure.
+
+Application's CSS file is properly commented.
